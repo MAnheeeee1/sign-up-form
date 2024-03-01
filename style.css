@@ -5,7 +5,7 @@
 }
 .hero-section{
     display: flex;
-    height: 100vh;
+    height: 95vh;
 }
 .background-image{
     display: flex;
@@ -20,7 +20,11 @@
     flex: 5;
 }
 p{
-    padding: 2em;
+    padding:2em;
+    font-weight: bold;
+}
+.em-paragrapf{
+    padding: 0 2em 2em 2em;
 }
 h1{
 
@@ -31,7 +35,7 @@ h1{
     display: flex;
     flex-direction: column;
 }
-form{
+.main-form{
     padding: 2em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
@@ -45,4 +49,30 @@ form{
 
 label{
     font-size: 0.7em;
+}
+input:focus{
+    border: none;
+}
+button{
+    margin: 2.2em;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: darkred;
+    color: white;
+    transition: 0.5s;
+}
+button:hover{
+    padding: 1.2em;
+}
+footer{
+
+    height: 5vh;
+    background-color: black;
+    color: white;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
 }

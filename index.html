@@ -12,48 +12,49 @@
         </div>
         <div class="form-section">
             <p>This is not a real service! You know you need something<br>like this in your life to help you realize your deepest dreams.<br>Sign up now to get started.<br></p>
-            <p>You <em>know</em> you want to.</p>
+            <p class="em-paragrapf">You <em>know</em> you want to.</p>
 
 
             <form method="get" action="">
-                <h2>Let's do this!</h2>
-                <div class="form-row">
-                    <div class="form">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="user_firstName">
+                <div class="main-form">
+                    <h2>Let's do this!</h2>
+                    <div class="form-row">
+                        <div class="form">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="user_firstName" required>
+                        </div>
+                        <div class="form">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="user_lastName" required>
+                        </div>
                     </div>
-                    <div class="form">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="user_lastName">
+                    <div class="form-row">
+                        <div class="form">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="user_email" required>
+                        </div>
+                        <div class="form">
+                            <label for="phone-nummber">PHONE NUMBER</label>
+                            <input type="text" id="phone-nummber" name="user_phoneNummber" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="user_password" required>
+                        </div>
+                        <div class="form">
+                            <label for="password-comfirm">COMFIRM PASSWORD</label>
+                            <input type="password" id="password-comfirm" name="user_passwordComfirm" required>
+                        </div>
                     </div>
                 </div>
-                <div class="form-row">
-                    <div class="form">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="user_email">
-                    </div>
-                    <div class="form">
-                        <label for="phone-nummber">PHONE NUMBER</label>
-                        <input type="text" id="phone-nummber" name="user_phoneNummber">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="user_password">
-                    </div>
-                    <div class="form">
-                        <label for="password-comfirm">LAST NAME</label>
-                        <input type="password" id="password-comfirm" name="user_passwordComfirm">
-                    </div>
-                </div>
-
-                <button type="submit">Submit</button>
+                <button type="submit">Create Account</button>
             </form>
-
         </div>
-
     </div>
-
+    <footer>
+        Made by Manh, View my other projects on <a href="https://github.com/MAnheeeee1">Github</a>
+    </footer>
 </body>
 </html>
